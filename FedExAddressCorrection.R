@@ -9,7 +9,7 @@ library("dplyr")
 library("plyr")
 library("sqldf")
 library("xlsx")
-data(zipcode)
+library("zipcode")
 setwd("~/Desktop") 
 ##must enter correct name of report below:
 addcorr <- read.csv("FedEx_Address_Correction_Detail_Payer_Detail_000000.csv", header = TRUE)
